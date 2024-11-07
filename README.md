@@ -19,7 +19,7 @@ This is a personal portfolio website built with HTML, CSS, and JavaScript. It sh
 5. **Contact**: Includes a contact form for visitors to reach me.
 6. **Footer**: Includes social links and a quick link to scroll back to the top of the page.
 
-## Technology Used
+## Technologies Used
 
 - **HTML5**: For creating the structure of the website.
 - **CSS3**: For styling and responsive design.

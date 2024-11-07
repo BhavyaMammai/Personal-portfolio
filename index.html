@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF=8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width-device-width, initial-scale = 1.0" />
+    <title>Personal Portfolio</title>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello! It's me</h3>
+        <h1>Bhavya Mammai</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          With more than 4 years of IT experience, I am an expert in using
+          Java/J2EE, REST APIs, Spring Core, Spring MVC, and Spring Boot to
+          create cloud-native apps and microservices. I have extensive
+          experience with Spring Security to develop security measures, and I am
+          skilled in database management utilizing JPA and other ORM
+          technologies. In addition, I have experience with unit testing with
+          JUnit and Mockito and am aware about CI/CD processes utilizing Gradle,
+          Maven, and Jenkins. My expertise also includes AWS, where I have
+          created and implemented a number of cloud-based applications.
+        </p>
+        <div class="social-media">
+          <a href="https://www.facebook.com/bhavya.mammai/"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://twitter.com/Bhavya18226572"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/_.bhavyaaa/"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/bhavyamammai/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="images/IMG_2768.jpg" alt="" />
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/IMG_2816.jpg" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Java Developer!</h3>
+        <p>
+          Welcome to my portfolio! I am Bhavya Mammai, a passionate and
+          dedicated software engineer with over 4 years of experience in the IT
+          industry. My expertise lies in creating robust, scalable, and
+          efficient cloud-native applications and microservices.
+        </p>
+        <a href="about-me.html" class="btn">Read More</a>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <h2 class="heading"><span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Development</h3>
+          <p>
+            Developing robust and scalable backend systems using Java, Spring
+            Boot, and other backend technologies. Expertise in building RESTful
+            APIs, integrating with third-party services, and ensuring optimal
+            performance.
+          </p>
+          <a href="services-dev.html" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-bar-chart-alt"></i>
+          <h3>QA</h3>
+          <p>
+            Implementing thorough testing procedures to ensure software quality.
+            Experienced in writing and executing test cases using JUnit,
+            Mockito, and other tools to detect bugs and ensure high-quality
+            releases.
+          </p>
+          <a href="services-qa.html" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bxs-data"></i>
+          <h3>Database Management</h3>
+          <p>
+            Proficient in database design and management, including relational
+            databases like PostgreSQL and Oracle. Expertise in writing complex
+            queries, optimizing performance, and ensuring data integrity.
+          </p>
+          <a href="services-db.html" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/portfolio1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Spring Boot - Application</h4>
+            <p>
+              Developed a shopping application named Shopify. Implemented this
+              using Spring MVC, Spring Security, and advanced Java.
+            </p>
+            <a href="portfolio-springboot.html"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/portfolio2.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>HTML, CSS, JS - Application</h4>
+            <p>
+              A comprehensive web design project showcasing modern, responsive
+              design techniques using HTML, CSS, and JavaScript.
+            </p>
+            <a href="portfolio-html-css-js.html"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/portfolio3.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>SDLC</h4>
+            <p>Worked on all phases of SDLC for a project.</p>
+            <a href="portfolio-sdlc.html"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by Bhavya| All Rights Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

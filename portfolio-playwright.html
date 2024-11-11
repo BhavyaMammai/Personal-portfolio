@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Bhavya Mammai</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      h4 {
+        font-size: 2.5em;
+        font-weight: bold;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="portfolio-detail">
+      <h1>
+        Playwright TypeScript Project -
+        <span>End-to-End Testing Automation</span>
+      </h1>
+      <p>
+        This project showcases my expertise in using
+        <strong>Playwright with TypeScript</strong> to create robust end-to-end
+        (E2E) automated tests for web applications. Playwright is a powerful
+        tool for modern web testing, and TypeScript provides type safety, which
+        helps catch errors early in the development process.
+      </p>
+
+      <h3>Project Overview</h3>
+      <p>
+        The goal of this project was to create an automated test suite capable
+        of performing complex E2E testing scenarios, including user flows. Using
+        TypeScript with Playwright, I developed a suite that not only ensures
+        the application’s functionality but also maintains reliability across
+        multiple browsers and devices.
+      </p>
+
+      <h4>Key Features of the Playwright TypeScript Project</h4>
+      <ul>
+        <li>
+          <strong>Cross-Browser Testing</strong>: Playwright allows testing
+          across multiple browsers like Chromium, Firefox, and WebKit, ensuring
+          the application performs consistently across different environments.
+        </li>
+        <li>
+          <strong>Automated User Flow Testing</strong>: I created scripts to
+          simulate various user actions and validate end-to-end workflows, such
+          as login, form submissions, navigation, and other interactions.
+        </li>
+        <li>
+          <strong>Parameterized Tests</strong>: Leveraged TypeScript to
+          parameterize tests, allowing execution of test scenarios with multiple
+          data sets for comprehensive coverage.
+        </li>
+      </ul>
+
+      <h4>Test Structure and Framework Design</h4>
+      <p>
+        The test suite was designed using Playwright’s page object model (POM)
+        pattern to promote reusability and maintainability. This modular
+        approach allows for a cleaner test structure, making the test cases
+        easier to read, understand, and modify.
+      </p>
+      <ul>
+        <li>
+          <strong>Page Object Model (POM)</strong>: Each page of the application
+          was represented as a separate TypeScript class, encapsulating
+          selectors and methods for page interactions.
+        </li>
+        <li>
+          <strong>Reusable Components</strong>: Created reusable components for
+          common functionalities (e.g., navigation, form handling) to reduce
+          code duplication.
+        </li>
+        <li>
+          <strong>Test Fixtures</strong>: Utilized Playwright’s fixtures for
+          setting up browser contexts and test environments, ensuring tests run
+          independently.
+        </li>
+      </ul>
+
+      <h4>Sample Test Scenario</h4>
+      <p>
+        Here is an example scenario to demonstrate the Playwright testing
+        process:
+      </p>
+      <ol>
+        <li>Navigate to the application’s login page.</li>
+        <li>Check for title is visible.</li>
+        <li>Click on the links on the page to ensure it is navigating</li>
+        <li>
+          Verify that the user lands on the dashboard page after successful
+          login.
+        </li>
+        <li>
+          Check for the presence of specific dashboard elements, such as user
+          profile information and recent activities.
+        </li>
+      </ol>
+
+      <h4>Benefits of Using Playwright with TypeScript</h4>
+      <ul>
+        <li>
+          <strong>Type Safety</strong>: TypeScript provides type-checking at
+          compile-time, reducing runtime errors and improving test reliability.
+        </li>
+        <li>
+          <strong>Auto-Completion and Intellisense</strong>: TypeScript enhances
+          developer productivity with IDE support for autocompletion, reducing
+          development time.
+        </li>
+        <li>
+          <strong>Rich Playwright API</strong>: Playwright’s extensive API
+          supports interactions with various web elements, including mouse
+          actions, keyboard inputs, and browser settings.
+        </li>
+      </ul>
+
+      <h4>CI/CD Integration</h4>
+      <p>
+        The test suite was configured to run automatically as part of the CI/CD
+        pipeline, ensuring the application passes all critical user flow tests
+        before deployment. Key benefits of this integration:
+      </p>
+      <ul>
+        <li>
+          <strong>Automated Regression Testing</strong>: Detects bugs introduced
+          by recent changes, maintaining application stability.
+        </li>
+        <li>
+          <strong>Feedback Loop</strong>: Quick feedback on test results,
+          enabling rapid bug fixing.
+        </li>
+      </ul>
+
+      <h3>Conclusion</h3>
+      <p>
+        This Playwright TypeScript project demonstrates my ability to develop
+        comprehensive and scalable E2E tests, ensuring application quality and
+        performance. It highlights my proficiency in using advanced testing
+        tools and practices in modern web application testing.
+      </p>
+      <p>
+        You can view the complete source code and documentation on my GitHub
+        repository:
+        <a href="https://github.com/BhavyaMammai/Automation-Testing"
+          >Playwright TypeScript Testing</a
+        >
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Bhavya Mammai | All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

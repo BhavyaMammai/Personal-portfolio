@@ -12,10 +12,10 @@
 }
 
 :root {
-  --bg-color: #d4c6a9;
-  --second-bg-color: #acb7ae;
-  --text-color: #00303f;
-  --main-color: #873f74;
+  --bg-color: #0d0d0d;
+  --second-bg-color: #0d0d0d;
+  --text-color: #f2fbfe;
+  --main-color: #088cc0;
 }
 html {
   font-size: 62.5%;
@@ -220,6 +220,10 @@ nav a.active {
 .about-detail h3 {
   font-size: 2.2rem;
 }
+.about-detail h4 {
+  font-size: 1.8rem;
+  color: #088cc0;
+}
 .about-detail footer {
   flex-direction: column-reverse;
 }
@@ -360,6 +364,7 @@ nav a.active {
   height: 5rem;
   background: var(--text-color);
   border-radius: 50%;
+  color: #088cc0;
 }
 
 .portfolio-layer a i {
@@ -392,6 +397,52 @@ nav a.active {
 .portfolio-detail footer p {
   text-align: center;
   margin-top: 2rem;
+}
+
+.skills {
+  padding: 50px 0;
+  background: #111;
+  text-align: center;
+  max-height: 3px;
+  min-height: 50vh;
+}
+
+.skills h2 {
+  color: #fff;
+  font-size: 4.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.skills-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.skills-slide-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 10s linear infinite;
+  gap: 4rem;
+}
+
+.skills-slide-track img {
+  height: 60px;
+  object-fit: contain;
+  transition: transform 0.5s ease;
+}
+
+.skills-slide-track img:hover {
+  transform: scale(1.2);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .contact h2 {
